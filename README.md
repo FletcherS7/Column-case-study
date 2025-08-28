@@ -9,6 +9,8 @@ To do a dry run and not impact the current install of Firefox, set the DEBUG val
 
 <details>
 <summary>Example Output</summary>
+  
+```
 2025-08-28 10:16:47 : INFO  : firefoxpkg : setting variable from argument DEBUG=0
 2025-08-28 10:16:47 : INFO  : firefoxpkg : Total items in argumentsArray: 1
 2025-08-28 10:16:47 : INFO  : firefoxpkg : argumentsArray: DEBUG=0
@@ -45,6 +47,7 @@ displaynotification:7: no such file or directory: /usr/local/bin/dialog
 2025-08-28 10:17:01 : INFO  : firefoxpkg : Installomator did not close any apps, so no need to reopen any apps.
 2025-08-28 10:17:01 : REQ   : firefoxpkg : All done!
 2025-08-28 10:17:01 : REQ   : firefoxpkg : ################## End Installomator, exit code 0
+```
 </details>
 
 
@@ -54,8 +57,11 @@ The JAMF test extension attribute can be run using the command:
 
 <details>
 <summary>Example Output</summary>
+
+```
 On Success: <result>needs updating</result>
 On Failure: <result>up-to-date</result>
+```
 </details>
 
 NOTE: Since we are accessing directories outside of the home directory, sudo is required when testing these scripts.
