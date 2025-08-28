@@ -67,10 +67,11 @@ On Failure: <result>up-to-date</result>
 NOTE: Since we are accessing directories outside of the home directory, sudo is required when testing these scripts.
 
 ## Add to JAMF
-Upload Installomator.sh to scripts repository within JAMF and configure a policy to use this script, then in the Parameter Values section configure with the following values
-Parameter 4: firefoxpkg
-Parameter 5: DEBUG=0
-Parameter 6: INSTALL="force"
+Upload Installomator.sh to scripts repository within JAMF and configure a policy to use this script, then in the Parameter Values section configure with the following values.
+<br>
+Parameter 4: firefoxpkg<br>
+Parameter 5: DEBUG=0<br>
+Parameter 6: INSTALL="force"<br>
 (Why INSTALL=Force? Since we are planning to use an EA and Smart groups to determine update compliance, we want to bypass Installomaters built in version checking)
 
 
